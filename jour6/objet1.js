@@ -3,4 +3,7 @@ let person = {
     lastName : "Bouhali" ,
     age : 20
 }
-console.log(person)
+console.log(`
+    -firstName : ${person.firstName}
+    -lastName : ${person.lastName}
+    -Age : ${person.age}`)

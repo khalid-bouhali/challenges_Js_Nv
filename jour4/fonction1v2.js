@@ -1,5 +1,3 @@
-const prompt = require('prompt-sync')();
-
 function additionne(a,b) {
     return a+b
 }

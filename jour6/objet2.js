@@ -9,8 +9,8 @@ for (let i=0 ; i < student.notes.length ; i++){
 }
 let finalResult = sum / student.notes.length
 
-console.log(
-    student.fistName,
-    student.lastName,
-    finalResult
+console.log(`
+    -Student first Name : ${student.fistName}
+    -Student last Name : ${student.lastName}
+    -Student's note : ${finalResult}`
 )
